@@ -70,42 +70,42 @@ const App = () => {
         <div className="container">
           <div className={`content-wrapper ${isVisible ? "visible" : ""}`}>
             <h1 className="hero-title">
-              {/* <div className="mini-launch-badge">Coming Q2 2025</div> */}
-              <span className="gradient-text">The Future of</span>
+              <span className="gradient-text">AI-Powered Seller</span>
               <br />
               <span className="title-underline">
-                Real Estate <span>Intelligence</span>
+                Prediction Platform <span>for Real Estate</span>
               </span>
             </h1>
 
             <p className="hero-description">
-              We're building the most sophisticated AI-powered platform for real
-              estate investment analysis and task automation. Join the waitlist
-              to get early access and exclusive benefits.
+              Stop wasting time on dead leads. Our proprietary AI platform
+              predicts likely sellers before they list, unifying fragmented data
+              sources to deliver high-quality opportunities directly to your
+              team.
             </p>
 
             <div className="features-grid-preview">
               <div className="feature-preview-card">
                 <div className="feature-icon">🎯</div>
-                <h3>Market Intelligence</h3>
-                <p>AI-powered insights across 57M+ properties</p>
+                <h3>Seller Prediction</h3>
+                <p>AI-powered scoring of 100M+ properties</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">📈</div>
-                <h3>Investment Analytics</h3>
-                <p>Advanced valuation and prediction models</p>
+                <h3>Smart Lead Scoring</h3>
+                <p>Proprietary readiness prediction model</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">⚡</div>
-                <h3>Deal Acceleration</h3>
-                <p>Streamlined acquisition workflows</p>
+                <h3>Enterprise Platform</h3>
+                <p>Unified data access and team tools</p>
               </div>
             </div>
 
             <div className="signup-section">
               {!isSubmitted ? (
                 <>
-                  <h2 className="signup-title">Get Early Access</h2>
+                  <h2 className="signup-title">Get Priority Access</h2>
                   <form
                     onSubmit={handleSubmit}
                     className="signup-form"
@@ -135,7 +135,7 @@ const App = () => {
                   </form>
                   {error && <p className="error-message">{error}</p>}
                   <p className="signup-note">
-                    Limited spots available for beta access
+                    Limited enterprise beta spots available
                   </p>
                 </>
               ) : (
