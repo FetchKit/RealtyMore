@@ -70,32 +70,32 @@ const App = () => {
         <div className="container">
           <div className={`content-wrapper ${isVisible ? "visible" : ""}`}>
             <h1 className="hero-title">
-              <span className="gradient-text">AI-Powered</span>
+              <span className="gradient-text">AI Powered</span>
               <br />
-              <span className="title-underline">Seller Prediction</span>
+              <span className="title-underline">Seller Signals</span>
             </h1>
 
             <p className="hero-description">
-              We unify public records, property data, and market signals to
-              predict likely sellers before they list. One platform, real
-              insights, no dead leads.
+              We're building an AI that analyzes billions of public records to
+              predict property sellers before they list. One unified API for
+              teams to access all property intelligence.
             </p>
 
             <div className="features-grid-preview">
               <div className="feature-preview-card">
                 <div className="feature-icon">🎯</div>
-                <h3>Smart Scoring</h3>
-                <p>1-100 seller readiness rating</p>
+                <h3>Proprietary AI</h3>
+                <p>Up to 90% accuracy on seller predictions</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">📈</div>
-                <h3>Data Unification</h3>
-                <p>Public records + market signals</p>
+                <h3>Unified Platform</h3>
+                <p>One API for all property data</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">⚡</div>
-                <h3>Easy Access</h3>
-                <p>API & dashboard for teams</p>
+                <h3>Self-Service</h3>
+                <p>Direct access for large teams</p>
               </div>
             </div>
 
