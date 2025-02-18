@@ -70,35 +70,32 @@ const App = () => {
         <div className="container">
           <div className={`content-wrapper ${isVisible ? "visible" : ""}`}>
             <h1 className="hero-title">
-              <span className="gradient-text">AI-Powered Seller</span>
+              <span className="gradient-text">AI-Powered</span>
               <br />
-              <span className="title-underline">
-                Prediction Platform <span>for Real Estate</span>
-              </span>
+              <span className="title-underline">Seller Prediction</span>
             </h1>
 
             <p className="hero-description">
-              Stop wasting time on dead leads. Our proprietary AI platform
-              predicts likely sellers before they list, unifying fragmented data
-              sources to deliver high-quality opportunities directly to your
-              team.
+              We unify public records, property data, and market signals to
+              predict likely sellers before they list. One platform, real
+              insights, no dead leads.
             </p>
 
             <div className="features-grid-preview">
               <div className="feature-preview-card">
                 <div className="feature-icon">🎯</div>
-                <h3>Seller Prediction</h3>
-                <p>AI-powered scoring of 100M+ properties</p>
+                <h3>Smart Scoring</h3>
+                <p>1-100 seller readiness rating</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">📈</div>
-                <h3>Smart Lead Scoring</h3>
-                <p>Proprietary readiness prediction model</p>
+                <h3>Data Unification</h3>
+                <p>Public records + market signals</p>
               </div>
               <div className="feature-preview-card">
                 <div className="feature-icon">⚡</div>
-                <h3>Enterprise Platform</h3>
-                <p>Unified data access and team tools</p>
+                <h3>Easy Access</h3>
+                <p>API & dashboard for teams</p>
               </div>
             </div>
 
